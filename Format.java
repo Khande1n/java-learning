@@ -14,9 +14,9 @@ public class Format {
 		int ithree = s.nextInt();
 
 		System.out.println("================================\n");
-		System.out.printf("%-15s %03d% \n", sone, ione);
-		System.out.printf("%-15s %03d% \n", stwo, itwo);
-		System.out.printf("%-15s %03d% \n", sthree, ithree);
+		System.out.printf("%-14s %03d \n", sone, ione);
+		System.out.printf("%-14s %03d \n", stwo, itwo);
+		System.out.printf("%-14s %03d \n", sthree, ithree);
 		System.out.println("================================\n");
 	}
 }
